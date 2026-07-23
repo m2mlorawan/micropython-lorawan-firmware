@@ -1,4 +1,5 @@
 micropython-lorawan-heltec-v4.2.bin is AS923 for Heltec LoRa both V.3.2 and 4.2.
+Download and flash at 0x0 by using https://espressif.github.io/esptool-js/
 
 Example
 
