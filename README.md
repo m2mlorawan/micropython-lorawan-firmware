@@ -1,4 +1,4 @@
-micropython-lorawan-heltec-v4.2.bin is AS923 for Heltec LoRa bot V.3.2 and 4.2.
+micropython-lorawan-heltec-v4.2.bin is AS923 for Heltec LoRa both V.3.2 and 4.2.
 
 Example
 
