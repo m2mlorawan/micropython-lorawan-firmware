@@ -2,8 +2,11 @@ micropython-lorawan-heltec-v4.2.bin is AS923 for Heltec LoRa bot V.3.2 and 4.2.
 
 Example
 
-import lorawan,time
+```python
+import lorawan
+import time
 import tbeam
+
 lw = lorawan.LoRaWAN(
     region=lorawan.AS923,
     lorawan_version=lorawan.V1_0_4,
@@ -19,6 +22,7 @@ lw = lorawan.LoRaWAN(
 )
 
 print("b..")
+
 if not lw.joined():
     lw.join_otaa(
         dev_eui=bytes.fromhex("70B3D57ED00683AA"),
@@ -31,4 +35,5 @@ while True:
     lw.send(b"Hello", port=1)
     print("Sent!")
     time.sleep(5)
+```
 
