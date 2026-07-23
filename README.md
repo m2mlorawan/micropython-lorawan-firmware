@@ -5,7 +5,6 @@ Example
 ```python
 import lorawan
 import time
-import tbeam
 
 lw = lorawan.LoRaWAN(
     region=lorawan.AS923,
