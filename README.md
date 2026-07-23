@@ -21,8 +21,6 @@ lw = lorawan.LoRaWAN(
     busy=13,
 )
 
-print("b..")
-
 if not lw.joined():
     lw.join_otaa(
         dev_eui=bytes.fromhex("70B3D57ED00683AA"),
